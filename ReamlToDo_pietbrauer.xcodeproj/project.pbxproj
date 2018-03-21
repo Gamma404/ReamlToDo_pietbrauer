@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		182A02412060FF2F000AA4AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A02402060FF2F000AA4AC /* AppDelegate.swift */; };
-		182A02432060FF2F000AA4AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A02422060FF2F000AA4AC /* ViewController.swift */; };
 		182A02462060FF2F000AA4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182A02442060FF2F000AA4AC /* Main.storyboard */; };
 		182A02482060FF2F000AA4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182A02472060FF2F000AA4AC /* Assets.xcassets */; };
 		182A024B2060FF2F000AA4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182A02492060FF2F000AA4AC /* LaunchScreen.storyboard */; };
+		182A0255206109B5000AA4AC /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A0254206109B5000AA4AC /* MyTableViewController.swift */; };
+		3C8937A159619FE288C19294 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C893C68B957254818F29F60 /* Order.swift */; };
 		975C5BCDD54C05422B7F921A /* Pods_ReamlToDo_pietbrauer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49129F37CBD7209F5D387A16 /* Pods_ReamlToDo_pietbrauer.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +20,12 @@
 		0128C832519C8F34005A7DCE /* Pods-ReamlToDo_pietbrauer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReamlToDo_pietbrauer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReamlToDo_pietbrauer/Pods-ReamlToDo_pietbrauer.debug.xcconfig"; sourceTree = "<group>"; };
 		182A023D2060FF2F000AA4AC /* ReamlToDo_pietbrauer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReamlToDo_pietbrauer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182A02402060FF2F000AA4AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		182A02422060FF2F000AA4AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		182A02452060FF2F000AA4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182A02472060FF2F000AA4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182A024A2060FF2F000AA4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182A024C2060FF2F000AA4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182A0254206109B5000AA4AC /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		3C893C68B957254818F29F60 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		49129F37CBD7209F5D387A16 /* Pods_ReamlToDo_pietbrauer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReamlToDo_pietbrauer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AED66DFDB893540BDF4ACE /* Pods-ReamlToDo_pietbrauer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReamlToDo_pietbrauer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReamlToDo_pietbrauer/Pods-ReamlToDo_pietbrauer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,11 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				182A02402060FF2F000AA4AC /* AppDelegate.swift */,
-				182A02422060FF2F000AA4AC /* ViewController.swift */,
 				182A02442060FF2F000AA4AC /* Main.storyboard */,
 				182A02472060FF2F000AA4AC /* Assets.xcassets */,
 				182A02492060FF2F000AA4AC /* LaunchScreen.storyboard */,
 				182A024C2060FF2F000AA4AC /* Info.plist */,
+				182A0254206109B5000AA4AC /* MyTableViewController.swift */,
+				3C893C68B957254818F29F60 /* Order.swift */,
 			);
 			path = ReamlToDo_pietbrauer;
 			sourceTree = "<group>";
@@ -219,8 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182A02432060FF2F000AA4AC /* ViewController.swift in Sources */,
 				182A02412060FF2F000AA4AC /* AppDelegate.swift in Sources */,
+				182A0255206109B5000AA4AC /* MyTableViewController.swift in Sources */,
+				3C8937A159619FE288C19294 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
