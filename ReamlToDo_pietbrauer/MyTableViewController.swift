@@ -23,14 +23,25 @@ class MyTableViewController: UITableViewController {
     private func AddOrder() throws { // 生成訂單
         let realm = try! Realm()
 
-        let order: Order = Order()
-        order.name = "鞋子1000雙" // 訂單名稱
-        order.amount = 60000 // 訂單金額
+//放在這只會有一筆資料
+//        let order: Order = Order()
+//        order.name = "鞋子1000雙" // 訂單名稱
+//        order.amount = 60000 // 訂單金額
 
-        // 新增資料
-        try! realm.write {
+        // 交易開始
+        realm.beginWrite()
+
+        for _ in 1...100{
+//放裡面就會有100筆
+            let order: Order = Order()
+            order.name = "鞋子1000雙" // 訂單名稱
+            order.amount = 60000 // 訂單金額
+            
             realm.add(order)
         }
+
+        // 交易結束，並提交數據
+        try! realm.commitWrite()
 
         // 印出資料庫的位址
         print("fileURL: \(realm.configuration.fileURL!)")

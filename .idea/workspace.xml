@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96b9eeb3-8932-4eb3-9323-1b931e177e4f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ReamlToDo_pietbrauer/MyTableViewController.swift" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ReamlToDo_pietbrauer/Order.swift" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ReamlToDo_pietbrauer.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ReamlToDo_pietbrauer.xcodeproj/project.pbxproj" />
-      <change beforePath="$PROJECT_DIR$/ReamlToDo_pietbrauer/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/ReamlToDo_pietbrauer/Base.lproj/Main.storyboard" />
-      <change beforePath="$PROJECT_DIR$/ReamlToDo_pietbrauer/ViewController.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ReamlToDo_pietbrauer/MyTableViewController.swift" afterPath="$PROJECT_DIR$/ReamlToDo_pietbrauer/MyTableViewController.swift" />
     </list>
     <ignored path="/Volumes/Ramdisk/Library/Developer/Xcode/DerivedData/ReamlToDo_pietbrauer-hgjlxmvwhdviojbznsllaanmmulv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +30,8 @@
       <file leaf-file-name="MyTableViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ReamlToDo_pietbrauer/MyTableViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="436">
+              <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding>
                 <element signature="e#152#164#0" expanded="true" />
               </folding>
@@ -64,8 +59,8 @@
       <list>
         <option value="$PROJECT_DIR$/ReamlToDo_pietbrauer/RLM_User.swift" />
         <option value="$PROJECT_DIR$/ReamlToDo_pietbrauer/AppDelegate.swift" />
-        <option value="$PROJECT_DIR$/ReamlToDo_pietbrauer/MyTableViewController.swift" />
         <option value="$PROJECT_DIR$/ReamlToDo_pietbrauer/Order.swift" />
+        <option value="$PROJECT_DIR$/ReamlToDo_pietbrauer/MyTableViewController.swift" />
       </list>
     </option>
   </component>
@@ -75,7 +70,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="22" />
     <option name="width" value="1920" />
     <option name="height" value="988" />
@@ -172,12 +167,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521534962719</updated>
       <workItem from="1521534964338" duration="362000" />
-      <workItem from="1521536529944" duration="7233000" />
+      <workItem from="1521536529944" duration="8879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7595000" />
+    <option name="totallyTimeSpent" value="9241000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -189,14 +184,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="988" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2919563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -294,8 +289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ReamlToDo_pietbrauer/MyTableViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="436">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding>
             <element signature="e#152#164#0" expanded="true" />
           </folding>
