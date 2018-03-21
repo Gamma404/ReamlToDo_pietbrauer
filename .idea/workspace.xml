@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/ReamlToDo_pietbrauer/MyTableViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="32" column="72" lean-forward="false" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding>
                 <element signature="e#152#164#0" expanded="true" />
               </folding>
@@ -167,12 +167,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521534962719</updated>
       <workItem from="1521534964338" duration="362000" />
-      <workItem from="1521536529944" duration="9426000" />
+      <workItem from="1521536529944" duration="9521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9788000" />
+    <option name="totallyTimeSpent" value="9883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,7 +290,7 @@
     <entry file="file://$PROJECT_DIR$/ReamlToDo_pietbrauer/MyTableViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="32" column="72" lean-forward="false" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding>
             <element signature="e#152#164#0" expanded="true" />
           </folding>

@@ -30,7 +30,9 @@ class MyTableViewController: UITableViewController {
     private func queryOrder() {
         let realm = try! Realm()
 
-        let orders = realm.objects(Order.self).filter("name = '鞋子700雙'")
+        // 使用NSPredicate查詢條件來過濾資料
+        let predicate = NSPredicate(format: "amount >= %d AND amount <= %d", 20000, 50000)
+        let orders = realm.objects(Order.self).filter(predicate)
 
         for result in orders {
             print("id: \(result.id)")
