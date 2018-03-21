@@ -19,9 +19,23 @@ class MyTableViewController: UITableViewController {
 //        } catch {
 //        }
 
-        do {
-            try ModifyOrder()
-        } catch {
+//        do {
+//            try ModifyOrder()
+//        } catch {
+//        }
+// 查詢資料
+        queryOrder()
+    }
+
+    private func queryOrder() {
+        let realm = try! Realm()
+
+        let orders = realm.objects(Order.self)
+
+        for result in orders {
+            print("id: \(result.id)")
+            print("name: \(result.name)")
+            print("amount: \(result.amount)")
         }
     }
 
