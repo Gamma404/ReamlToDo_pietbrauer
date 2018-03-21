@@ -14,9 +14,28 @@ class MyTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        do {
+//            try AddOrder()
+//        } catch {
+//        }
+
         do {
-            try AddOrder()
+            try ModifyOrder()
         } catch {
+        }
+    }
+
+    private func ModifyOrder() throws { // 修改資料
+        let realm = try! Realm()
+
+        let order: Order = Order()
+        order.id = "E3C5344A-5930-404B-8B79-3BC82981AC5E"
+        order.name = "鞋子700雙"
+        order.amount = 40000
+
+        try! realm.write {
+            // 必須有定義key值才能傳入true
+            realm.add(order, update: true)
         }
     }
 
